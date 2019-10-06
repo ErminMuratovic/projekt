@@ -1,0 +1,287 @@
+body {
+  	font-family: 'Lato', Didot, serif;
+  	font-weight: 400;
+  	font-size: 16px;
+  	line-height: 1.7;
+  	background-color:#F2F3DE;
+}
+
+header {
+  	height: 100vh;
+  	background-image:url('Header.jpg');
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+	width:100%;
+}
+.topnav {
+  overflow: hidden;
+width:100%;
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 18px 20px;
+	text-decoration: none;
+	margin-right:30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
+}
+.topnav a:hover {
+	color: #CD5C5C;
+	
+}
+.topnav a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}  
+.text-box {
+  	position: absolute;
+  	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.heading-primary {
+  	color: #fff;
+  	text-transform: uppercase;
+
+  	backface-visibility: hidden;
+  	margin-bottom: 30px;
+}
+
+.heading-primary-main {
+  	display: block;
+  	font-size: 32px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+	width:100%;
+}
+
+.heading-primary-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+}
+
+.btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  	transform: translateY(-1px);
+  	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  	background-color: #fff;
+  	color: #777;
+	font-size: 14px;
+}
+.main{
+	height:1300px;
+	width:100%;
+	background-color:#FFFFF0;
+}
+.column {
+	float: left;
+	width: 50%;
+	background-color:white;
+	height:24%;
+	margin-top:10px;
+	
+}
+.image{
+	float:right;
+	width:50%;
+	height:24%;
+	margin-top:10px;
+}
+img{
+	height:100%;
+	width:100%;
+}
+
+.column-box{
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:80%;
+	float:right;
+	top:10%;
+	text-align:center;
+	background-image:url('column1.jpg')
+}
+h2{
+	margin-top:10px;
+	margin-bottom:5px;
+	color:white;
+	width:100%;
+}
+.column-box p{
+	font-size:15px;
+	padding:5px;
+	color:#EAEFF0;
+}
+.section:{
+	height:800px;
+	margin-top:10px;
+	width:100%;
+}
+.contact{
+	height:320px;
+	width:100%;
+	margin:auto;
+}
+.contact h1{
+	color:black;
+	text-align:center;
+	margin-top:20px;
+	font-size:40px;
+	width:100%;
+
+}
+.form{
+	height:70%;
+	position:relative;
+	width:100%;
+}
+input{
+	width:30%;
+	height:40px;
+	text-align:center;
+	font-size:18px;
+	margin:5px;
+	margin-left:15%;
+	border: 2px solid #929C9D;
+	color:#609698 ;
+}
+.message{
+	height:100px;
+	width:100%;
+}
+.message input{
+	height:80px;
+	width:78%;
+	margin-left:15%;
+	margin-top:5px;
+	text-align:left;
+}
+.message button{
+	margin-right:6%;
+	color:white;
+	float:right;
+	height:35px;
+	background-color:#7FEDF3;
+}
+
+.map{
+	position:relative;
+	text-align:right;
+	height:600px;
+	width:100%;
+}
+.gmap {
+	overflow:hidden;
+	background:none!important;
+	height:485px;
+	width:100%;
+}
+iframe{
+	width:100%;
+	height:95%;	
+}
+.map h1{
+	text-align:center;
+	padding:10px;
+	color:black;
+	font-size:40px;
+	letter-spacing:5px;	
+}
+footer{
+	height:165px;
+	width:100%;
+	background-color: #7FEDF3;
+	color:#E5F4F5;
+}
+.About{
+	width:40%;
+	float:left;
+	text-align:left;
+	margin-left:15px;
+}
+.Share{
+	width:40%;
+	float:right;
+	text-align:center;
+	height:100%;
+	margin-right:10%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  height:30px;
+  width:30px;
+  margin:5px;
+  text-align:center;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+   height:30px;
+  width:30px;
+  margin:5px;
+  text-align:center;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  height:30px;
+  width:30px;
+  margin:5px;
+  text-align:center;
+}
+@media screen and (max-width:800px) {
+  header, .main, .section, footer {
+    width:100%; 
+  }
